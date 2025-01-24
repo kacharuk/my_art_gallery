@@ -9,6 +9,7 @@ phases:
   install:
     commands:
       - echo Bundle install...
+      - rbenv install 2.7.6
       - bundle install
       - bundle exec rake db:migrate
   build:
