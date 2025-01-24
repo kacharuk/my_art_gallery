@@ -116,4 +116,3 @@ docker run -v $(pwd):/rails -p 3000:3000 my_art_gallery_local
 
 Then you can navigate to http://localhost:3000, see the running app, and make changes locally that will be reflected instantly.  If you need to restart the server or run db:migrate, just re-run the `docker run` command above, but if you change the Gemfile, you'll need to fully re-build the image with the steps above.
 
-t
